@@ -35,7 +35,3 @@ func isPathCrossing(path string) bool {
 
 	return isCrossed
 }
-
-func main() {
-	isPathCrossing("NESWW")
-}
