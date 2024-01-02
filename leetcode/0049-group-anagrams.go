@@ -42,6 +42,6 @@ func groupAnagrams(strs []string) [][]string {
 	return ans
 }
 
-func main() {
-	groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"})
-}
+// func main() {
+// 	groupAnagrams([]string{"eat", "tea", "tan", "ate", "nat", "bat"})
+// }
