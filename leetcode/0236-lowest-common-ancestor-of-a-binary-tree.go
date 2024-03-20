@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func dfs(root, p, q *TreeNode) (pFound, qFound bool, ans *TreeNode) {
 	if root == nil {
 		return false, false, nil
@@ -47,17 +45,18 @@ func lowestCommonAncestor(root, p, q *TreeNode) *TreeNode {
 	return root
 }
 
-func main() {
-	var a *TreeNode = &TreeNode{Val: 7}
-	var b *TreeNode = &TreeNode{Val: 4}
-	var c *TreeNode = &TreeNode{Val: 2, Left: a, Right: b}
-	var d *TreeNode = &TreeNode{Val: 6}
-	var e *TreeNode = &TreeNode{Val: 5, Left: d, Right: c}
-	var f *TreeNode = &TreeNode{Val: 0}
-	var g *TreeNode = &TreeNode{Val: 8}
-	var h *TreeNode = &TreeNode{Val: 1, Left: f, Right: g}
-	var i *TreeNode = &TreeNode{Val: 3, Left: e, Right: h}
-
-	var res = lowestCommonAncestor(i, e, g)
-	fmt.Println(res.Val)
-}
+//
+//func main() {
+//	var a *TreeNode = &TreeNode{Val: 7}
+//	var b *TreeNode = &TreeNode{Val: 4}
+//	var c *TreeNode = &TreeNode{Val: 2, Left: a, Right: b}
+//	var d *TreeNode = &TreeNode{Val: 6}
+//	var e *TreeNode = &TreeNode{Val: 5, Left: d, Right: c}
+//	var f *TreeNode = &TreeNode{Val: 0}
+//	var g *TreeNode = &TreeNode{Val: 8}
+//	var h *TreeNode = &TreeNode{Val: 1, Left: f, Right: g}
+//	var i *TreeNode = &TreeNode{Val: 3, Left: e, Right: h}
+//
+//	var res = lowestCommonAncestor(i, e, g)
+//	fmt.Println(res.Val)
+//}
