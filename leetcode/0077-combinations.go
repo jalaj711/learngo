@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func _recur(curr []int, ind int, ll int, ul int, ans *[][]int) {
 	if ind >= len(curr) || ll > ul {
 		return
@@ -31,8 +29,4 @@ func combine(n int, k int) [][]int {
 	curr := make([]int, k)
 	_recur(curr, 0, 1, n, &ans)
 	return ans
-}
-
-func main() {
-	fmt.Println(combine(5, 3))
 }
