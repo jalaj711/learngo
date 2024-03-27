@@ -36,14 +36,15 @@ func reorderList(head *ListNode) {
 	return
 }
 
-func main() {
-	g := ListNode{7, nil}
-	f := ListNode{6, &g}
-	e := ListNode{5, &f}
-	d := ListNode{4, &e}
-	c := ListNode{3, &d}
-	b := ListNode{2, &c}
-	a := ListNode{1, &b}
-
-	reorderList(&a)
-}
+//
+//func main() {
+//	g := ListNode{7, nil}
+//	f := ListNode{6, &g}
+//	e := ListNode{5, &f}
+//	d := ListNode{4, &e}
+//	c := ListNode{3, &d}
+//	b := ListNode{2, &c}
+//	a := ListNode{1, &b}
+//
+//	reorderList(&a)
+//}
