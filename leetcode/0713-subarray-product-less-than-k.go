@@ -39,10 +39,11 @@ func numSubarrayProductLessThanK(nums []int, k int) int {
 	return a
 }
 
-func main() {
-	numSubarrayProductLessThanK([]int{10, 5, 2, 6}, 100)        // 8
-	numSubarrayProductLessThanK([]int{5, 2, 3, 4, 3}, 120)      // 13
-	numSubarrayProductLessThanK([]int{120, 5, 2, 3, 4, 3}, 120) // 13
-	numSubarrayProductLessThanK([]int{1, 1, 1}, 2)              // 6
-	numSubarrayProductLessThanK([]int{5, 4, 3, 2}, 0)           // 0
-}
+//
+//func main() {
+//	numSubarrayProductLessThanK([]int{10, 5, 2, 6}, 100)        // 8
+//	numSubarrayProductLessThanK([]int{5, 2, 3, 4, 3}, 120)      // 13
+//	numSubarrayProductLessThanK([]int{120, 5, 2, 3, 4, 3}, 120) // 13
+//	numSubarrayProductLessThanK([]int{1, 1, 1}, 2)              // 6
+//	numSubarrayProductLessThanK([]int{5, 4, 3, 2}, 0)           // 0
+//}
